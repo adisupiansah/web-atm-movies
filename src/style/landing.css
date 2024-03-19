@@ -1,0 +1,368 @@
+
+.Body {
+    background: #272829;
+    min-height: 100vh;
+    font-family: Poppins-reguler;
+}
+
+/* font */
+@font-face {
+    font-family: Poppins-reguler;
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: Poppins-italic;
+    src: url('../fonts/Poppins-Italic.ttf');
+}
+@font-face {
+    font-family: Poppins-semibolditalic;
+    src: url('../fonts/Poppins-SemiBoldItalic.ttf');
+}
+@font-face {
+    font-family: Poppins-semibold;
+    src: url('../fonts/Poppins-SemiBold.ttf');
+}
+/* font end */
+
+/* Navbar */
+.navbar{
+    background-color: #272829;
+    border-bottom: 0.1px solid #FFDE59;
+}
+
+.navbar-logo {
+    width: 130px
+}
+
+.navbar .navbar-form {
+    border-radius: 20px;
+}
+.navbar .navbar-button{
+    border-radius: 20px;
+    background-color: #FFDE59;
+    color: #272829;
+    border: none;
+    font-weight: 500;
+}
+.navbar .navbar-button:hover{
+    background-color: #272829;
+    border: 1px solid #FFDE59;
+    color: #F6F5F5;
+}
+/* navbar end */
+
+/* Hero section */
+.hero-section {
+    background-image: url('../image/hero-section.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+   
+}
+.judul-section {
+    font-size: 30px;
+    color: #F6F5F5;
+    margin-top: 100px;
+    position: absolute;
+}
+.text-section {
+    color: #F6F5F5;
+    margin-top: 180px;
+    position: absolute;
+    text-align: justify;
+    font-family: Poppins-italic;
+    
+}
+/* end hero section */
+
+
+/* Trending Movie */
+.trending .search-movie{
+    margin-bottom: 25px;
+}
+.trending .form-search-movie{
+    border-radius: 20px;
+}
+.trending .button-search-movie{
+    border-radius: 20px;
+    background-color: #FFDE59;
+    margin-left: 5px;
+}
+.trending .button-search-movie:hover{
+    background-color: #272829;
+    border:  1px solid #FFDE59;
+    color: #F6F5F5;
+}
+.trending .animasi:hover{
+    transform: scale(1.10);
+    transition: ease-in 0.3s;
+}
+.judul-trending {
+    color: #F6F5F5;
+    font-family: Poppins-semibold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.img-trending{
+    border-radius: 20px;
+    width: 156px;
+    height: 238px;
+    margin-top: 20px;
+}
+
+/* popular movie */
+.Popular .animasi:hover{
+    transform: scale(1.10);
+    transition: ease-in 0.3s;
+}
+.judul-popular {
+    color: #F6F5F5;
+    font-family: Poppins-semibold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.img-popular{
+    border-radius: 20px;
+    width: 156px;
+    height: 238px;
+    margin-top: 20px;
+}
+/* end popular movie */
+
+/* Super hero */
+
+.super-hero .animasi:hover{
+    transform: scale(1.10);
+    transition: ease-in 0.3s;
+}
+
+.judul-hero {
+    color: #F6F5F5;
+    font-family: Poppins-semibold;
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+.img-hero{
+    border-radius: 20px;
+    width: 156px;
+    height: 238px;
+    margin-top: 20px;
+    /* margin-bottom: 200px; */
+}
+/* end super hero */
+
+/* Footer */
+.footer {
+    background-color: #272829;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid #FFDE59;
+    margin-top: 200px;
+}
+
+.footer .judul-footer {
+    color: #F6F5F5;
+    font-size: 25px;
+    color: #FFDE59;
+    font-family: Poppins-semibold;
+    margin-top: 40px;
+}
+
+.menu-footer {
+    margin-bottom: 30px;
+}
+
+.footer .footer-link{
+    color: #F6F5F5;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer .footer-link:hover{
+    color: #FFDE59;
+}
+
+/* complaint */
+.footer .complain{
+    margin-left: -70px;
+}
+
+.footer .judul-complain {
+    color: #F6F5F5;
+    font-size: 25px;
+    color: #FFDE59;
+    font-family: Poppins-semibold;
+    margin-top: 40px;
+}
+
+.menu-complain {
+    margin-bottom: 30px;
+}
+
+.footer .text-complain{
+    color: #F6F5F5;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.footer .form-complain{
+    border-radius: 20px;
+}
+.footer .button-complain{
+    border-radius: 20px;
+    border: none;
+    background-color: #FFDE59;
+    color: #272829;
+}
+.footer .button-complain:hover{
+    background-color: #272829;
+    border: 1px solid #FFDE59;
+}
+
+/* social media */
+.socialmedia{
+    margin-left: 65px;
+}
+.footer .judul-socialmedia {
+    color: #F6F5F5;
+    font-size: 25px;
+    color: #FFDE59;
+    font-family: Poppins-semibold;
+    margin-top: 40px;
+}
+
+.menu-socialmedia {
+    margin-bottom: 130px;
+}
+
+.footer .link-socialmedia{
+    color: #F6F5F5;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer .link-socialmedia:hover{
+    color: #FFDE59;
+   
+}
+
+.footer .footer-icon{
+    color: #FFDE59;
+}
+.footer .footer-icon:hover{
+    color: #F6F5F5;
+}
+.footer .menu-icon{
+    display: flex;
+    gap: 20px;
+    margin-top: -77px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    /* section hero */
+    .hero-section .judul-section{
+        font-size: 20px;
+    }
+    .hero-section .text-section{
+        margin-top: 160px;
+    }
+
+
+    /* trending Movies */
+    .trending .img-trending{
+        width: 92px;
+        height: 138px;
+    }
+    .trending .judul-trending{
+        font-size: 25px;
+    }
+
+    /* Populer Movies */
+    .Popular .img-popular{
+        width: 92px;
+        height: 138px;
+    }
+    .Popular .judul-popular{
+        font-size: 25px;
+    }
+
+    /* Superhero */
+    .super-hero .img-hero {
+        width: 92px;
+        height: 138px;
+    }
+    .super-hero .judul-hero{
+        font-size: 25px;
+    }
+
+
+    /* footer */
+    .footer .peru{
+        margin-left:43px;
+    }
+    .footer .bantuan{
+        margin-left:53px;
+    }
+    .footer .judul-footer {
+        font-size: 15px;
+    }
+    .footer .footer-link{
+        font-size: 11px;
+    }
+
+    /* footer complaint */
+   
+    .footer .judul-complain{
+        font-size: 15px;
+    }
+    .footer .text-complain {
+        font-size: 11px;
+    }
+    .footer .complain {
+      /* background-color: tomato; */
+      margin-left: 3px;
+      text-align: center;
+    }
+    .complain .form-complain{
+        padding: -1px;
+        width: 130px;
+        height: 30px;
+        margin-left: 80px;
+        font-size: 13px;
+
+    }
+    .complain .button-complain {
+        padding: -1px;
+        width: 60px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    /* Footer social media */
+    .socialmedia {
+      margin-left: 3px;
+      justify-content: center;
+      text-align: center;
+    }
+    .socialmedia .menu-icon{
+        margin-left: 3px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .socialmedia .judul-socialmedia {
+        font-size: 15px;
+    }
+    .socialmedia .link-socialmedia {
+        font-size: 11px;
+    }
+    .socialmedia .menu-icon{
+        margin-top: -120px;
+    }
+    .socialmedia .icn {
+        width: 12px;
+    }
+}
